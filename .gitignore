@@ -1,0 +1,24 @@
+# Environnements virtuels
+venv/
+
+# Fichiers générés
+*.pyc
+__pycache__/
+
+# Fichiers de configuration système
+.DS_Store
+*.log
+
+# Fichiers spécifiques à l'IDE
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Configuration ngrok
+ngrok.log
+
+# Informations sensibles (auth tokens, API keys, etc.)
+config.py
+
+# Ignorer le fichier contenant les informations sensibles
+.env
